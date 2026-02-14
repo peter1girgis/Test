@@ -6,6 +6,21 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+
+        "ext-bcmath": "*",
+        "ext-intl": "*",
+        "ext-zip": "*",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-mbstring": "*",
+        "ext-gd": "*",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-fileinfo": "*",
+        "ext-openssl": "*",
+        "ext-tokenizer": "*",
+        "ext-xml": "*",
+
         "filament/filament": "3.3",
         "flowframe/laravel-trend": "^0.4.0",
         "guzzlehttp/guzzle": "^7.2",
@@ -66,6 +81,9 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
+        },
+        "platform": {
+            "php": "8.2"
         }
     },
     "minimum-stability": "stable",
