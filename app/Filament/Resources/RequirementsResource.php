@@ -93,7 +93,7 @@ class RequirementsResource extends Resource
     // It is used in the navigation menu to show the number of orders.
     public static function getNavigationBadge(): ?string
     {
-        return static::getModel()::count();
+        return Requirements::count() ;
     }
     // This method is used to get the color of the navigation badge
     // It returns 'success' if the count of orders is greater than 10, otherwise
